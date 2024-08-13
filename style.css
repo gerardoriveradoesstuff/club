@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+body {
+  background-color: black;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+
+
+.one {
+  background-image: url('back.jpg');
+  height: 100%;;
+}
+
+
+.three {
+  color: rgba(64, 224, 208, 1);
+}
+
+
+
+/* Fixed Header */
+      .fixed-header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+      }
+
+/* Style for the container */
+.container-fluid {
+  overflow-x: hidden;
+  position: relative;
+  padding: 0;
+}
+
+
+
+
+
+.navbar {
+  background-color:rgb(63, 220, 204, 0.7);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  
+}
+
+.active {
+  background: rgba(255, 255, 153, 1);
+  border-radius: 15px;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white
+}
+
+.cp{
+  background-color: rgba(255, 255, 153, 1)!important;
+  border-radius: 25px;
+  color: black!important;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
